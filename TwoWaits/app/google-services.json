@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "91266651228",
+    "project_id": "loginapp-f4957",
+    "storage_bucket": "loginapp-f4957.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91266651228:android:b9b4fd772816c2bdb90299",
+        "android_client_info": {
+          "package_name": "com.aayushpandey.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91266651228-0naskgfok12njv1uoiedl6tjrfju7lp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqvOEK-wn106PGpjTCDqxgfEbZ11eiUN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91266651228-0naskgfok12njv1uoiedl6tjrfju7lp3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
