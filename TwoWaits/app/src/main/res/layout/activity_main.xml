@@ -23,7 +23,6 @@
         />
 
     <TextView
-        android:id="@+id/Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="serif"
@@ -47,7 +46,7 @@
         android:drawableLeft="@drawable/ic_baseline_perm_identity_24"
 
         android:ems="10"
-        android:hint="   Username"
+        android:hint="   Email"
         android:inputType="textPersonName"
         android:paddingLeft="20dp"
         android:paddingTop="13dp"
@@ -62,7 +61,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/welcome"
+        app:layout_constraintTop_toBottomOf="@+id/register"
         app:layout_constraintVertical_bias="0.248" />
 
     <EditText
@@ -102,7 +101,7 @@
         app:layout_constraintVertical_bias="0.183" />
 
     <TextView
-        android:id="@+id/welcome"
+        android:id="@+id/register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-thin"
@@ -132,7 +131,7 @@
         android:id="@+id/accountcreate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="create an account? Signup!"
+        android:text="Create an account? Signup!"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/login"
