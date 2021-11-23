@@ -19,7 +19,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
-private TextView accountcreate;
+private TextView accountcreate,forgot;
 Button login;
 EditText username,passWord;
     String emailPattern="^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$";
@@ -39,7 +39,7 @@ FirebaseUser mUser;
 
             }
         });
-
+forgot=findViewById(R.id.forgot);
         login=findViewById(R.id.login);
         username=findViewById(R.id.Username);
         passWord=findViewById(R.id.Password);
@@ -53,6 +53,13 @@ FirebaseUser mUser;
             }
 
 
+        });
+        forgot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,forgetPass.class);
+                startActivity(intent);
+            }
         });
     }
 
